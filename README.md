@@ -1,5 +1,5 @@
 # ip2country service 
-Service use GeoIP2-Country database, listen on port 8080 receive IP address and return country and country code
+golang Service use GeoIP2-Country database, listen on port 8080 receive IP address and return country and country code
 
 ## How to use with docker (dockerize service)
 Download GeoIP2-Country.mmdb or GeoLite2-Country.mmdb file to ./GeoIP2-Country.mmdb,
