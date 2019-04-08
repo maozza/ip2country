@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  ip2country:
+    image: "nexus-ng.themarker.com/ip2country:${version:-latest}"
+    hostname: ip2counrty
+    networks:
+      - production
+    ports:
+      - "4005:4005"
+networks:
+  production:
+    external: true
