@@ -7,7 +7,7 @@ services:
     networks:
       - production
     ports:
-      - "4005:4005"
+      - "4005:8080"
 networks:
   production:
     external: true
