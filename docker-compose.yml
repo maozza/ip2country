@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  ip2country:
+    build: .
+    deploy:
+      mode: replicated
+      replicas: 1
+    image: "nexus-ng.themarker.com/ip2country:${version:-latest}"
+    ports:
+      - "4005:4005"
